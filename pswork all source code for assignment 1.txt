@@ -1,0 +1,57 @@
+TASK 1:
+Question 2:
+Source code:
+list=[ x for x in range(2000,3201) if x % 7 == 0 and x % 5 != 0]
+print(list)
+
+Question 3: 
+Source Code:
+Firstname=input()
+Surname=input()
+print(Firstname+"  " +Surname)
+print(Firstname[::-1]+" " +Surname[::-1])
+
+Question 4
+Source Code:
+import math
+d=12
+r=d*2
+v=(4/3)*math.pi*pow(r,3)
+print(v)
+
+TASK 2:
+Source Code:
+Question 1:
+values = input("Input some comma seprated numbers : ")
+
+list = values.split(",")
+
+print('List : ',list)
+
+Question 2: 
+Source Code:
+n=5;
+for i in range(n):
+    for j in range(i):
+        print ('* ', end="")
+    print('')
+for i in range(n,0,-1):
+    for j in range(i):
+        print('* ', end="")
+    print('')
+
+Question 3:
+Source Code:
+WORD=input()
+print(WORD[::-1])
+
+Question 4:
+Source Code:
+print("WE, THE PEOPLE OF INDIA,\n\thaving solemnly resolved to constitute India into a SOVEREIGN,
+! \n\t\tSOCIALIST, SECULAR, DEMOCRATIC REPUBLIC \n\t\t and to secure to all its citizens")
+
+	
+
+
+
+
